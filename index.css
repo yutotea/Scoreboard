@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    color: white;
+    width: 575px;
+    height: 375px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin: 15px 0px 25px 0px;
+    text-align: center;
+}
+
+.score {
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    color: #F94F6D;
+    background-color: black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.home-team {
+    text-align: center;
+}
+
+.guest-team {
+    text-align: center;
+}
+
+button {
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    padding: 15px;
+    margin: 2px;
+}
